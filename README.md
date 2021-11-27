@@ -1,3 +1,3 @@
 # Mohand_P154
-Introduction to Programming Class
+Introduction to Programming
 class 1

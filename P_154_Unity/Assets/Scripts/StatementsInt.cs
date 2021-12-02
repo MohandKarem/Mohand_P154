@@ -14,22 +14,47 @@ public class StatementsInt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (score > 60)
+        if (score == 0)
+        {
+            print("FAILED!");
+        }
+
+        else if (0 < score && score < 50)
+        {
+            print("FAILED!");
+        } 
+
+        else if (score == 50)
+        {
+            print("PASSED");
+        } 
+
+        else if (50 < score && score < 60)
         {
             print("PASSED");
         }
 
-        if (60 < score && score < 75)
+        else if (score == 60)
         {
             print("PASSED WELL");
         }
 
-        if (75 < score && score < 100)
+        else if (60 < score && score < 75)
+        {
+            print("PASSED WELL");
+        }
+
+        else if (score == 75)
         {
             print("PASSED GOOD");
         }
 
-        if (score == 100)
+        else if (75 < score && score < 100)
+        {
+            print("PASSED GOOD");
+        }
+
+        else if (score == 100)
         {
             print("PASSED GREAT!");
         }

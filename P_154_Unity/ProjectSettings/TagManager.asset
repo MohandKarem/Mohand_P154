@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Hide
   - Destroy
+  - Street
+  - Grass
   layers:
   - Default
   - TransparentFX
